@@ -1,0 +1,63 @@
+body{
+    background: url(https://www.slate.fr/sites/default/files/styles/1060x523/public/plagehotellemorne.jpg);
+    background-repeat: no-repeat;
+    background-size: 1367px 700px;
+    background-attachment: fixed;
+}
+
+body{
+   
+   border-style: ridge; 
+   border-color: gray;
+   padding: 0.5%;
+   margin: 2%;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   border-radius: 5px;
+   
+}
+
+body42{
+    color: blue;
+}
+
+.menu{
+    display: flex;
+    padding: 0;
+    background-color: none;
+    justify-content: center;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.menu a {
+    display:block;
+    min-width: 120px;
+
+    margin: 0.5rem;
+    padding: 0.5rem 0;
+    text-align: center;
+    background-color: blueviolet;
+    color: azure;
+    text-decoration: none;
+    border: 1px solid red;
+    border-radius: 4px;
+    transition: all 1s;
+}
+
+.menu a:hover {
+    background-color: rgb(201, 19, 19);
+    color: burlywood;
+    border-color: chocolate;
+}
+
+.tourisme{
+    padding: 10px;
+    width: 950x;
+}
+
+footer{
+    opacity: initial;
+}
+
