@@ -41,8 +41,8 @@ CREATE TABLE IF NOT EXISTS `utilisateurs` (
 --
 
 INSERT INTO `utilisateurs` (`id`, `nom`, `mdp`, `email`) VALUES
-(13, 'Mehdi', 'ez', 'chouirebmehdi13@gmail.com'),
-(12, 'Mehdi', 'ez', 'chouirebmehdi13@gmail.com');
+(, '', '', ''),
+(, '', '', '');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
